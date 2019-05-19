@@ -1,0 +1,6 @@
+- Клонируем проект
+- Добавляем базу boardgame, меняем строку соединения в `appsettings.Development.json`
+- `dotnet ef database update`
+- `dotnet run`
+-  http://localhost:5000/DataGenerator/CleanInsights
+-  http://localhost:5000/DataGenerator/SeedInsights
